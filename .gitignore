@@ -1,0 +1,30 @@
+# --- OS Metadata ---
+.DS_Store
+
+# --- Rust / Soroban ---
+/contracts/target
+/engine/target
+**/*.rs.bk
+Cargo.lock
+
+# --- Node / Frontend / API ---
+node_modules
+.npm
+dist
+.next
+/out
+build
+
+# --- Environment & Secrets ---
+.env
+.env.*.local
+.env.testnet
+.env.mainnet
+*.pem
+*.key
+
+# --- Databases ---
+/api/prisma/dev.db
+
+# --- Turbo ---
+.turbo

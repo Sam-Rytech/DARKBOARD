@@ -1,0 +1,19 @@
+{
+  "name": "darkboard-monorepo",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "turbo": "^1.12.4",
+    "prettier": "^3.2.5"
+  },
+  "workspaces": [
+    "app",
+    "api",
+    "sdk/typescript"
+  ]
+}
